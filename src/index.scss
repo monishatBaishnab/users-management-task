@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+$purple_100: #2563eb;
+$purple_200: #3b82f6;
+
+*{
+    font-family: 'Roboto', sans-serif;
+}
+
+.form{
+    max-width:768px;
+    margin: 0 auto;
+}
+
+.signinform{
+    max-width: 480px;
+    margin: 0 auto;
+}
+
+.btn-icon{
+    padding: 10px 15px;
+    border: 0;
+    margin-right: 10px;
+}
+.btn-icon-red{
+    background: #ef4444;  
+    color: white;
+    border-radius: 10px;
+    transition: background 0.15s;
+    &:hover{
+        background: #dc2626;
+    }
+}
+.btn-icon-green{
+    background: #22c55e;  
+    color: white;
+    border-radius: 10px;
+    transition: background 0.15s;
+    &:hover{
+        background: #16a34a;
+    }
+}
